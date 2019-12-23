@@ -1,0 +1,289 @@
+# Copyright (C) 2019 Automattic
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - Simple Paid Listings 1.4.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wp-job-manager-simple-paid-listings\n"
+"POT-Creation-Date: 2019-11-05 12:08:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: gateways/abstract-class-wp-job-manager-spl-gateway.php:135
+msgid "Job #%d Payment Update"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:20
+msgid "PayPal Standard"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:25
+msgid "PayPal Email"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:26
+msgid "Your PayPal email address."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:33
+msgid "PayPal Identity Token"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:34
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Website Payment "
+"Preferences) and then copy your identity token here. This will allow "
+"payments to be verified without the need for PayPal IPN."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:41
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:42
+msgid "Enable PayPal Sandbox (used for testing)"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:44
+msgid "Yes"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:45
+msgid "No"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:112
+msgid "New Job Listing"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:195
+msgid ""
+"The PayPal amount received does not match the job listing fee - please "
+"manually check payment before approving this listing. The job has *not* "
+"been automatically approved."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:238
+#: gateways/class-wp-job-manager-spl-paypal.php:293
+#: gateways/class-wp-job-manager-spl-stripe.php:241
+msgid ""
+"Payment has been received in full for Job Listing #%d - this job is ready "
+"for admin approval."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:240
+#: gateways/class-wp-job-manager-spl-paypal.php:295
+#: gateways/class-wp-job-manager-spl-stripe.php:243
+msgid ""
+"Payment has been received in full for Job Listing #%d - this job has been "
+"automatically approved."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:282
+msgid ""
+"The PayPal amount recieved does not match the job listing fee - please "
+"manually check payment before approving this listing. The job has *not* "
+"been automatically approved."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:303
+msgid ""
+"PayPal payment is pending for Job Listing #%d - this job has *not* been "
+"automatically approved."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-paypal.php:308
+msgid ""
+"The payment for Job Listing #%d was reversed. Please check this job/payment "
+"and change the status manually if need be."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:21
+msgid "Stripe Checkout"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:26
+msgid "Secret Key"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:27
+#: gateways/class-wp-job-manager-spl-stripe.php:35
+msgid "Get your API keys from your stripe account."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:34
+msgid "Publishable Key"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:60
+msgid "Pay for listing"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:96
+#. translators: %1$s is the currency symbol; %2$s is the price per listing.
+msgid "%1$s%2$s"
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:125
+msgid "We are currently unable to accept payments. Please try again later."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:155
+msgid "An error occurred while processing your payment."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:211
+msgid "Payment received does not match the cost of the job listing."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:215
+msgid "Payment has been made but does not match the job listing."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:262
+msgid "An unknown error occurred while processing your payment."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:370
+#. translators: Placeholder is the title of the job listing.
+msgid "New Job Listing \"%s\""
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:382
+msgid "Invalid response."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:417
+#: gateways/class-wp-job-manager-spl-stripe.php:425
+msgid "There was a problem connecting to the gateway."
+msgstr ""
+
+#: gateways/class-wp-job-manager-spl-stripe.php:421
+#: gateways/class-wp-job-manager-spl-stripe.php:429
+msgid "Empty response."
+msgstr ""
+
+#: templates/stripe-checkout.php:18
+msgid "Pay for Listing"
+msgstr ""
+
+#: templates/stripe-checkout.php:24
+msgid "Item"
+msgstr ""
+
+#: templates/stripe-checkout.php:34
+msgid "Cardholder Name"
+msgstr ""
+
+#: templates/stripe-checkout.php:44
+msgid "Payment Details"
+msgstr ""
+
+#: templates/stripe-checkout.php:57
+msgid "Submit Payment"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:122
+msgid ""
+"<em>WP Job Manager - Simple Paid Listings</em> requires WP Job Manager to "
+"be installed and activated."
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:136
+msgid ""
+"<em>WP Job Manager - Simple Paid Listings</em> requires WP Job Manager %s "
+"(you are using %s)."
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:380
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:474
+msgid "Pay for listing &rarr;"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:486
+msgid ""
+"Thanks. Your Job listing was submitted successfully and will be visible "
+"once payment is verified."
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:526
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-simple-paid-listings.php:597
+msgid "Paid Listings"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:604
+msgid "Listing Cost"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:605
+msgid ""
+"Enter the cost of new listings, excluding any currency symbols. E.g. "
+"<code>9.99</code>"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:611
+msgid "Currency Code"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:612
+msgid ""
+"Enter the currency code you wish to use. E.g. for US dollars enter "
+"<code>USD</code>. Your gateway must support your input currency for "
+"payments to work."
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:618
+msgid "Payment Gateway"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:619
+msgid ""
+"Choose the gateway to use for paid listings. If using Stripe you should "
+"ensure your Submit Job page is served over HTTPS. You can use <a "
+"href=\"http://wordpress.org/plugins/wordpress-https/\">WordPress HTTPS</a> "
+"to do this."
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:666
+msgid "Pay"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - Simple Paid Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/simple-paid-listings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add paid listing functionality. Set a price per listing and take payment "
+"via Stripe or PayPal before the listing becomes published."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com"
+msgstr ""
+
+#: wp-job-manager-simple-paid-listings.php:521
+msgctxt "job_listing"
+msgid "Pending Payment"
+msgstr ""
