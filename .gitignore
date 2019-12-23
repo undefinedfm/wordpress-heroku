@@ -5,6 +5,8 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 node_modules
 web/app/themes/presspack/build
+web/app/plugins/all-in-one-seo-pack
+web/app/plugins/debug-bar
 
 # WordPress
 web/wp
